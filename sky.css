@@ -22,7 +22,7 @@ header{
     height: 50px;
     padding:10px;
     margin-top:5px;
-    margin-right:470px;    
+    margin-right:480px;    
 }
 .logo,h1{
     margin-right:10px;
@@ -40,7 +40,7 @@ li,a{
 }   
 h1{
     color: red;
-    margin-right: 50px;
+    margin-right:50px;
     float: right;
     justify-content:right;
 }
@@ -126,7 +126,7 @@ img{
     flex-wrap: wrap;
     display: flex;
     justify-content: space-around;
-    background-color: rgba(171, 173, 165, 0.8);
+    background-color: rgba(33, 34, 31, 0.8);
     opacity: 70%;
     color:white;
     object-fit: fill;
@@ -233,13 +233,63 @@ img{
  footer{
     background:black;
     position:relative;
-    margin: 0;
-    height:auto;
+    margin: 5px 0;
+    height:300px;
     justify-content:space-between;
     flex-wrap:wrap;
     padding-left: 60px;
 }
-.sec-footer{
+#main2{
+        width:100%;
+        height:300px;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        position:relative;
+        top: 0;
+}
+.block1{
+    float:left;
+    width:28.3%;
+    border:1px solid;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(33, 34, 31, 0.8);
+    opacity: 70%;
+    color:white;
+    object-fit: fill;
+    margin:0;
+    height: 450px;
+}
+.value1{
+    color:white;
+    text-transform: capitalize;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight:500px;
+}
+.idea1{
+    text-align: center;
+    left: 20px; 
+}
+.footer-link{
+    width:50%;
+    height:50px;
+    border-radius: 25px;
+}
+.m{
+    width:40%;
+    height: 40px;
+    border-radius:20px;
+    align-content: space-around;
+    justify-content:right;
+}
+
+
+/* .sec-footer{
     width: 28.3%;
     box-sizing: border-box;
     border: 1px solid;
@@ -321,8 +371,7 @@ h2{
 }  
 .p{
     padding: 0;
-    margin:5px;
-}     */
+    margin:5px; */
 /* footer{
     position: relative;
     width: 100%;
@@ -403,13 +452,8 @@ h2{
     border-radius: 25px;
 
 } */
-
-
-
-
-
-
-
-
-
+/* .fname2{
+    text-align: left;
+    color: white;
+} */
 
