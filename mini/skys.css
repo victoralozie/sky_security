@@ -50,11 +50,11 @@ nav{
 }
 a{
     color:white;
-    font-size: 18px;
-    font-family: sans-serif;
+    font-size: 13px;
+    font-family:sans-serif;
     margin: 8px;
     text-decoration: none;
-    text-transform: uppercase;
+    text-transform: lowercase;
 }
 li a{
     transition: all 0.3s ease 0s;
@@ -155,9 +155,8 @@ button:hover{
 }
 h3{
     color:white;
-    text-shadow: 5px;
     font-family: serif;
-    font-size:22px;
+    font-size:20px;
     font-weight: 500;
 }
 .card:hover{
@@ -227,6 +226,15 @@ footer{
 .wap{
     flex-wrap: wrap;
     flex-direction: column;
+    text-decoration:none;
+    margin-left: 120px;
+    padding:10px 0;
+    margin-top:20px;
+    font-size: 13px;
+    font-weight: 200;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+
 }
 
 

@@ -1,0 +1,209 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration:none;
+    list-style: none;
+}
+body{
+    background-image: url(images/38.jpg.jpg);
+    background-repeat: no-repeat;
+    background-position:fixed;
+    background-size: cover;
+    height:300px;
+    
+}
+header{
+    width:100%;
+    height:80px;
+    background:black;
+    display: flex;
+}
+nav{
+    height: 80px;
+    width: 100%;
+    background:black;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+}
+.nav-logo{
+    width:30%;
+    display: flex;
+}
+.logo1{
+    font-size:20px;
+    font-weight: bold;
+    color:rgb(187, 9, 9);
+    padding: 0 50px;
+    line-height: 20px;
+    margin-top:30px;
+    margin-left:-40px;
+}
+.nav-links{
+    flex-wrap: wrap;
+    width:33%;
+    display:inline-block;
+    margin-right: 40px;
+}
+
+.links li{
+    float:left;
+    display:flex;
+    flex-direction: row;
+    margin-top:30px;
+    padding:3px; 
+}
+a{
+    color:white;
+    font-size: 13px;
+    font-family:sans-serif;
+    margin: 8px;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+li a{
+    transition: all 0.3s ease 0s;
+}
+li a:hover{
+    color: blue; 
+    cursor: pointer;
+}
+.wap{
+    width:100%;
+    height: 500px;
+}
+.tinz{
+    font-size:40px;
+    font-family: sans-serif;
+    font-weight: 200;
+    margin-top: 20px;
+    color: white;
+    margin-left: 40px;
+}
+.words{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: white;
+    margin-top:5px;
+    text-align: justify;
+    margin-left: 40px;
+
+
+}
+#cointainer{
+    background: blue;
+    width:100%;
+    height:450px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position:relative;
+    top: 0;
+}
+.block-1 {
+    float:left;
+    width:28.3%;
+    padding:10px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    color:black;
+    object-fit: fill;
+    margin:25px;
+    height: 450px;
+}
+.none{
+    display: flex;
+    position: relative;
+    width:100%;
+    height:200px;
+    object-fit:contain;
+    background-color:black;
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+.value{
+    color:black;
+    text-transform: capitalize;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    font-weight:500px;
+}
+.idea{
+    text-align: center;
+}
+.block-2{
+    float:left;
+    width:28.3%;
+    border:1px solid;
+    padding: 10px;
+    box-sizing: border-box;
+    flex-wrap:wrap;
+    display: flex;
+    justify-content: space-around;
+    object-fit:fill;
+    margin:20px;
+    height:450px;
+}
+.none-2{
+    display: flex;
+    position: relative;
+    width:100%;
+    height:200px;
+    object-fit:contain;
+    background-color:black;
+    margin:0;
+    padding: 0;
+}
+.value{
+    color:black;
+    text-transform: capitalize;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight:500px;
+    justify-content:space-evenly;
+}
+.idea{
+    text-align: center;
+}
+.block-3{
+    float:left;
+    width:28.3%;
+    border:1px solid;
+    padding:10px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(8, 8, 8);
+    color: white;
+    margin:22px;
+    height:450px;
+}
+.none-3{
+    display: flex;
+    position: relative;
+    width:100%;
+    height:200px;
+    object-fit:contain;
+    background-color:black;
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+.value{
+    color:white;
+    text-transform: capitalize;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight:500px;
+}
+.idea{
+    text-align: center;
+    margin:0;
+}
