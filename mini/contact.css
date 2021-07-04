@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+    }
+    body {
+        background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(images/18.jpg.jpg);
+        background-size: cover;
+        background-position: initial;
+        background-repeat: repeat;
+    
+    }
+    header{
+        width:100%;
+        height:80px;
+        background:black;
+        display: flex;
+        z-index:10px;
+    }
+    nav{
+        height: 80px;
+        width: 100%;
+        background:black;
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+    }
+    .nav-logo{
+        width:30%;
+        display: flex;
+    }
+    .pic{
+        width:70px;
+        height:70px;
+    }
+    .logo1{
+        font-size:22px;
+        font-family: sans-serif;
+        font-weight:200px;
+        color:rgb(248, 7, 7);
+        padding: 0 50px;
+        line-height: 20px;
+        margin-top:30px;
+        margin-left:-40px;
+    }
+    .nav-links{
+        flex-wrap: wrap;
+        width:33%;
+        display:inline-block;
+        margin-right: 40px;
+    }
+    
+    .links li{
+        float:left;
+        display:flex;
+        flex-direction: row;
+        margin-top:30px;
+        padding:3px; 
+    }
+    a{
+        color:white;
+        font-size: 15px;
+        font-family:sans-serif;
+        margin-bottom:10px;
+        margin-left: 20px;
+        text-decoration: none;
+        text-transform:uppercase;
+        justify-content: space-between;
+    }
+    li a{
+        transition: all 0.3s ease 0s;
+    }
+    li a:hover{
+        color: blue; 
+        cursor: pointer;
+    }
+    button{
+        padding: 9px 25px;
+    background-color: rgba(0, 136,169, 1);
+    color:white;
+    font-size:20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-left: 20px;
+    }
+    .wrapper {
+        width: 860px;
+        margin: 0 auto;
+        color: whitesmoke;
+        position: relative;
+        background-color: blue;
+    }
+    .wrapper ul {
+        list-style: none;
+        margin-top: 2%;
+        color: whitesmoke
+    
+    }
+    .wrapper ul li {
+        background: lightgray;
+        color: whitesmoke;
+        width: 170px;
+        border: 1px solid silver;
+        border-radius: 1px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        float: left;
+        font-size: 14px;
+        position: relative;
+        font-family:Arial, Helvetica, sans-serif;
+        font-style: none;
+        font-weight: bold;
+    
+    }
+    
+    .wrapper ul li:hover{
+        background: skyblue;
+        
+    }
+    .wrapper ul ul {
+        display: none;
+    }
+    .wrapper ul li:hover > ul{
+        display: block;
+    }
+    .wrapper ul ul ul {
+        margin-left: 170px;
+        top: 0;
+        position: absolute;
+    }
+    a {
+        text-decoration: none;
+    }
+    
+    .contact{
+        
+        height: 400px;
+        width: 100%;
+        background-color: transparent;
+        align-items: center;
+        justify-content: space-around;
+        display: flex;
+        top: 160px;
+        position: relative;
+        flex-wrap: wrap;
+    }
+    
+    h4 {
+        color: whitesmoke;
+        font-family: cursive;
+    }
+    
+    .address {
+        height: 600px;
+        width: 100%;
+        background-color: transparent;
+        justify-content: space-around;
+        align-items: center;
+        display: flex;
+        top: 160px;
+        position: relative;
+        flex-wrap: wrap;
+    
+    
+    }
+    
+    .box {
+        height: 400px;
+        width: 400px;
+        position: relative;
+        background-color:  rgba(0,0,0,0.5);
+        color: whitesmoke;
+        font-family: cursive;
+        border-radius: 10px;
+        align-items: stretch;
+    }
+    
+    .ul{
+        list-style-type: georgian;
+        padding: 0;
+        text-align: right;
+    }
+    
+    h1 {
+        color:rgb(248, 7, 7);
+        font-family: cursive;
+        font-size:30px;
+    }
